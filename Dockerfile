@@ -4,8 +4,8 @@ WORKDIR /opt/sh
 
 ENV NIFI_HOME /opt/sh/nifi
 
-ARG version=1.14.0
-ARG download=1.14.0-bin
+ARG version=1.15.0
+ARG download=1.15.0-bin
 
 RUN wget -q https://downloads.apache.org/nifi/$version/nifi-$download.tar.gz  && \
 mkdir -p /opt/sh/nifi && \
